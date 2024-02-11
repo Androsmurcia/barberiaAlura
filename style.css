@@ -1,0 +1,421 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif  ;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caja{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 940px;
+    align-items: center;
+    height: 80px;
+}
+
+.caja img{
+    height: 120px;
+}
+
+.max-width{
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+nav{
+    padding-right: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #1999c7;
+    text-decoration: underline;
+}
+
+.productos{
+   
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+}
+
+
+.productos li{
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.cabello{
+    background-image: url(./imagenes/cabello.jpg);
+    background-size: cover;
+    height: 218px;
+    background-position: center;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+}
+.barba{
+    background-image: url(./imagenes/barba.jpg);
+    background-size: cover;
+    height: 218px;
+    background-position: center;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+
+}
+
+.cabello-barba{
+    background-image: url(./imagenes/cabello+barba.jpg);
+    background-size: cover;
+    height: 218px;
+    background-position: top;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+}
+
+.productos li:hover{
+    border-color:#c78c19;
+}
+
+.productos li:active{
+    border-color:#088c19;
+}
+
+.productos legend{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover legend{
+    font-size: 33px;
+}
+
+.producto-descripcion{
+    font-size: 18px;
+}
+
+.producto-precio{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+
+
+form{
+    margin: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+
+form label{
+    display: flex;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.contactaremos{
+    font-size: 20px;
+}
+
+.como-contactar{
+    font-size: 20px;
+}
+
+.opcion-contactaremos{
+    margin: 15px 0px;  
+}
+
+.contactaremos select{
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox{
+    margin:20px 0;    
+}
+
+.checkbox, .select-contacteremos, .opcion-contactaremos, .input-contactaremos, .checkbox-input{
+    cursor: pointer;
+}
+
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0 15px 0;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+thead, td, th{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
+
+.banner{
+    background: url(./banner/banner.jpg);
+    background-size: cover;
+    height: 218px;
+    background-position: top;
+}
+
+.nombre-barberia{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nombre-barberia h2{
+    background-color: #000000cc;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.principal{
+    padding: 3em 0;
+    margin: 0 auto; 
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear:left;
+}
+
+.titulo-principal::first-letter{
+    font-weight: bold;
+}
+
+.principal p{
+    color: #000000;
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width:120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa p{
+    text-align: center;
+    margin: 0 0 2em;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+
+.mapa-contenido{
+    width:100%;
+    margin: 0 auto;
+}
+
+main{
+    background: linear-gradient(#fefefe,#888888);
+    box-shadow: inset 0 0 5px #000000;
+}
+
+
+.diferenciales{
+    padding: 3em 0;
+}
+
+.contenido-diferenciales{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lista-diferenciales{
+    width: 40%;
+}
+
+.items{
+    line-height: 1.5;
+}
+
+.items::before{
+    content:"✂";
+}
+
+.items:first-child{
+    font-weight: bold;
+}
+
+.imagenDiferenciales{
+    width: 60%;
+    transition: 400ms;
+    box-shadow: 1px 1px 5px 1px #000000;
+}
+
+.imagenDiferenciales:hover{
+    opacity: 0.3;   
+}
+
+.video{
+    margin: 1em auto;
+}
+
+
+@media screen and (max-width:480px) {
+
+     .caja, .principal, .mapa, .contenido-diferenciales, .video{
+       width: auto;
+    }
+
+   .caja{
+        display: flex;
+        justify-content: space-around;
+    }
+
+   .caja ul{
+    display: flex;
+    flex-direction: column;
+    align-items: end;    
+   }
+
+   nav a{
+    font-size: 20px;
+   }
+
+   .nombre-barberia h2 {
+    background-color: #000000cc;
+    color: #FFFFFF;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 50px;
+   }
+   
+   .principal, .contenido-diferenciales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 10px 2em 10px;
+   }
+
+   .diferenciales{
+    padding: 2em 0;
+   }
+   
+   .mapa{
+    padding: 0;
+   }
+
+   ol, ul{
+    margin: 15px;
+   }
+
+   .productos{
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+   .productos li{
+    width: 70%;
+    padding: 9px 10px;
+    margin: 0 0 15px 0;   
+   }
+   
+   .cabello, .barba, .cabello-barba{
+    background-size: contain;
+    height: 100px;
+    background-position: center;
+   }
+
+   form{
+    margin: 0;
+   }
+
+   .contactaremos{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 10px;
+   }
+
+   .opcion-contactaremos {
+    margin: 5px 0px;
+   }
+}
